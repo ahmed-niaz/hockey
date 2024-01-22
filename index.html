@@ -84,10 +84,158 @@
           </div>
         </div>
       </header>
-      <main class="container max-auto">
+      <main>
         <!-- Slider -->
-        <section>
-            
+        <section class="container mx-auto mt-12">
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="./assets/Images/slide1.png"
+                class="w-full bg-cover object-cover rounded-lg"
+              />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide4"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❯</a
+                >
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="./assets/Images/slide2.jpg"
+                class="w-full bg-cover object-cover rounded-lg"
+              />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide1"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❮</a
+                >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❯</a
+                >
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="./assets/Images/slide3.jpg"
+                class="w-full bg-cover object-cover rounded-lg"
+              />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❮</a
+                >
+                <a
+                  href="#slide4"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❯</a
+                >
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="./assets/Images/slide4.jpg"
+                class="w-full bg-cover object-cover rounded-lg"
+              />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❯</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- progressBar -->
+        <section class="container mx-auto mt-12">
+          <div
+            class="flex flex-col items-center py-8 border-dashed border-gray-500 border-y-2 mb-12"
+          >
+            <h2 class="text-[#131318] font-extrabold text-2xl lg:text-4xl mb-6 text-center">Professional Hockeys Club</h2>
+            <p class="w-3/5 text-center font-medium text-[#13131899]">
+              Please wait as we bring you the latest updates and insights from
+              the exciting world of our favorite professional hockey club.
+            </p>
+          </div>
+          <div class="flex justify-between flex-col lg:flex-row">
+            <div class="flex flex-col items-center">
+              <div
+                class="radial-progress text-red-600 font-extrabold"
+                style="--value: 87"
+                role="progressbar"
+              >
+                87%
+              </div>
+              <h3 class="text-xl font-bold my-6">Prayer Facility</h3>
+              <p class="text-center mb-4 w-3/5 lg:w-4/5 mx-auto text-[#13131899]">
+                Sit tight as we strive for excellence in every aspect of our
+                player facility.
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <div
+                class="radial-progress text-green-600 font-extrabold"
+                style="--value: 90"
+                role="progressbar"
+              >
+                90%
+              </div>
+              <h3 class="text-xl font-bold my-6">Experienced Coach</h3>
+              <p class="text-center mb-4 w-3/5 lg:w-4/5 mx-auto text-[#13131899]">
+                Drawing from years of strategic expertise and a proven track record, our coach brings a wealth of knowledge to the team.
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <div
+                class="radial-progress text-yellow-600 font-extrabold"
+                style="--value: 93"
+                role="progressbar"
+              >
+                93%
+              </div>
+              <h3 class="text-xl font-bold my-6">Senior Player</h3>
+              <p class="text-center mb-4 w-3/5 lg:w-4/5 mx-auto text-[#13131899]">
+                Discover the seasoned expertise, remarkable achievements, and indomitable spirit of our Senior Players.
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <div
+                class="radial-progress text-blue-600 font-extrabold"
+                style="--value: 87"
+                role="progressbar"
+              >
+                81%
+              </div>
+              <h3 class="text-xl font-bold my-6">Training Ground</h3>
+              <p class="text-center mb-4 w-3/5 lg:w-full mx-auto text-[#13131899]">
+                Stay tuned as we prepare the ultimate environment for skill enhancement and team cohesion. 
+              </p>
+            </div>
+          </div>
         </section>
       </main>
       <footer></footer>
